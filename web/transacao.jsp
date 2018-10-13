@@ -39,12 +39,6 @@
 </div>
 
 
-<div class="form-group">
-  <label class="col-md-4 control-label" for="enviar"></label>
-  <div class="col-md-4">
-    <button id="enviar" name="enviar" class="btn btn-success">Concluir</button>
-  </div>
-</div>
 
 <!-- Text input-->
 <div class="form-group">
@@ -54,6 +48,13 @@
 
   </div>
 </div>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="enviar"></label>
+  <div class="col-md-4">
+    <button id="enviar" name="enviar" class="btn btn-success">Concluir</button>
+  </div>
+</div>
+
 
 </fieldset>
 </form>
