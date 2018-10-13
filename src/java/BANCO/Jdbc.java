@@ -14,9 +14,9 @@ public class Jdbc {
  
         String dbName = "teste";
         String userName = "root";
-        String password = "erick5567";
+        String password = "";
         String hostname = "localhost";
-        String port = "3306";
+        String port = "3308";
         String jdbcUrl = "jdbc:mysql://" + hostname + ":"
                 + port + "/" + dbName + "?user=" + userName + "&password=" + password+"&autoReconnect=true";
         Class.forName("com.mysql.jdbc.Driver");
