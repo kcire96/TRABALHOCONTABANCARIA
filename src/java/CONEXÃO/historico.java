@@ -86,7 +86,7 @@ public historico() throws SQLException, ClassNotFoundException{
                             op = "D";
                         }
                     
-                        texto += "<tr>\n" +
+                        texto += "<br><tr>\n" +
                                 "    <td class=\"tg-0lax\">"+rs.getDate("DataOperacao")+"</td>\n" +
                                 "    <td class=\"tg-0lax\">"+rs.getBigDecimal("ValorOperacao")+"</td>\n" +
                                 "    <td class=\"tg-0lax\">"+rs.getString("CPFResponsavelOperacao")+"</td>\n" +
